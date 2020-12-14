@@ -1,0 +1,174 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#n1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #ceddf3; 
+}
+
+#n1 p{
+	font-family: Arial;
+	font-size: 15pt;
+}
+
+#n1 img{
+	height: 20px;
+}
+
+#n2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-image: linear-gradient(to top left, #e2e8f1, #89a9ca);
+}
+
+.link {
+	font-family: Arial;
+	font-size: 40pt;
+	color: #639db9;
+	margin-left: 10px;
+}
+
+#n2 div{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.chat_name{
+	font-family: Arial;
+	font-size: 20pt;
+}
+
+.chat_member{
+	font-family: Arial;
+	font-size: 15pt;
+	color: gray;
+}
+
+#n3{
+	display: flex;
+	flex-direction: column;
+	padding-top: 150px;
+}
+
+
+.data{
+	font-family: Arial;
+	color: gray;
+	font-size: 15pt;
+	background-color: #f0f4f7;
+	display: flex;
+	align-self: center;
+	max-width: 400px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 20px;
+}
+
+.new{
+	font-family: Arial;
+	color: gray;
+	font-size: 15pt;
+	background-color: #f0f4f7;
+	display: flex;
+	align-self: center;
+	max-width: 400px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 20px;
+}
+
+.message{
+	background-color: #f0f4f7;
+	max-width: 800px;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.text{
+	font-family: Arial;
+	font-size: 15pt;
+}
+
+.time{
+	font-family: Arial;
+	font-size: 10pt;
+	color: gray;
+	align-self: flex-end;
+}
+
+.name_1{
+	font-family: Arial;
+	font-size: 20pt;
+	color: orange;
+	margin-bottom: 5px;
+}
+
+.name_2{
+	font-family: Arial;
+	font-size: 20pt;
+	color: red;
+	margin-bottom: 5px;
+}
+
+.name_3{
+	font-family: Arial;
+	font-size: 20pt;
+	color: blue;
+	margin-bottom: 5px;
+}
+
+.name_4{
+	font-family: Arial;
+	font-size: 20pt;
+	color: #ff00ec;
+	margin-bottom: 5px;
+}
+
+.name_5{
+	font-family: Arial;
+	font-size: 20pt;
+	color: #6800ff;
+	margin-bottom: 5px;
+}
+
+.name_6{
+	font-family: Arial;
+	font-size: 20pt;
+	color: #1dc103;
+	margin-bottom: 5px;
+}
+
+.message_my{
+	background-color: #cdffd2;
+	max-width: 800px;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+}
+
+main{
+	background-image: url(images/chat_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+}
